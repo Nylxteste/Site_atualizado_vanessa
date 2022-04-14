@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* header */
+header{
+/*     background: black;
+ */   background-color: #7e0202d0;
+  height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+/* fim header */
+
+/* posicionar div que contem logo */
+#imagem-logo{
+    position: relative;
+   padding: 1vh 0vw 5vh 10vw;
+
+
+}
+img{
+
+   padding: 10px 5px 30px 10px;
+    border-radius: 20%;
+    width: 100px;
+}
+#titulo-h1{
+    position: relative;
+    margin-right: 0vw;
+    margin-top: 5vh;
+    right: -45px;
+    font-size: 1rem;
+    color: black;
+}
+/* APÓS HEADER */
+#container{
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+/*     background-image: url('https://www.theplayoffs.com.br/wp-content/uploads/2019/04/Campo-Liga-BFA.jpeg');
+ */ background-size: cover;
+    
+}
+#teste{
+    margin-top: 5vh;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    height: 75vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+/*     background-image: url('https://www.theplayoffs.com.br/wp-content/uploads/2019/04/Campo-Liga-BFA.jpeg');
+ */ background-size: cover;
+    border-radius: 4px solid black;
+    background-color: beige;
+    
+ 
+}
+/* NAV */
+nav{
+    margin-right: 2vw;
+    margin-top: 6vh;
+    width: 400px;
+}
+header ul{
+    display: flex;
+
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+a{
+ color: rgb(255, 255, 255); 
+ 
+}
+/* fim container */
+
+/*  */
+
+.colunas{
+    height: 68vh;
+    width: 30vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 5vh;
+    text-align: center;
+    padding: 5px;
+    text-align: justify;
+    transition: 0.5s ease-in-out;
+}
+.colunas h2 :hover{
+    font-size: 15px;
+    padding: 15px;
+    color: blueviolet !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.colunas h2{
+    font-size: 15px;
+    padding: 15px;
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+#americano{
+background-image: url('https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/nbkqdonnxfnvwdpj5z9f.jpg');
+background-size: 95%;
+background-repeat: no-repeat;
+background-position: top ;
+color: transparent;
+background-size: 205%;
+}
+#flag{
+    background-image: url('https://svite-league-apps-content.s3.amazonaws.com/17898/23373/9573534e-e81f-4630-a83b-df182cf12c28.jpeg');
+    background-size: 115%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: transparent;
+    }
+#americano:hover,#flag:hover{
+    background-image: none;
+    background-color: beige;
+    color: black;
+    
+
+}
+
+#linha-tempo{
+    width: 18vw;
+    background-size: 150%;
+    background-position: 110px;
+    display: flex;
+    justify-content: center;
+    
+}
+#linha-tempo nav{
+    width: 10px;
+    position: relative;
+    left:6.50vw;
+
+}
+#linha-tempo li{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: -2vh;
+    font-size: 12px;
+    margin-bottom: 50px;
+    list-style: url('https://lh3.googleusercontent.com/pw/AM-JKLUJJVF4g6utdmYcha0hLHV0Bg7QaSwcfACD_N64zYeQ5Rz_kvx0SlRuOJdIiDgggxIOUKViv_GKFC0ek3C74cuwVW-6kQRKIJYJmirW3bF8aqe4a_vJjgP9dxHMGsLDAeR9qPYS3yXOI_duEd7D1rjt=s24-no?authuser=0');
+}
+
+#linha-tempo li:hover{
+    margin-top: -2vh;
+    margin-bottom: 50px;
+    list-style: url('https://lh3.googleusercontent.com/pw/AM-JKLX1tHF7OhsyAYjRwxcSDEiHuDkuBYgt1eigp3NfH62XG_lipHy8VGDjzPSTzRPo11g0k8P6WMk45j1ba3BqZoNCk5Y_AEE8Y-LByB7qELbBS7mPpUrMYTF0NFwjjWvcXy1XGr4HQ8VFxQKs-l6D0mEZ=s24-no?authuser=0');
+}
+#linha-hover{
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    border-radius: 40px;
+    height: 52vh;
+    width: 0vw;
+    left: 4vw;
+}
+
+/* Parte 2 início */
+/* Colaborador: Leonardo */
+#div-container2{
+    height: 100vh;
+    padding: 20px;
+    background-color: beige;
+}
+
+.container-2-colunas  {
+    display: flex;
+    
+    margin-top: 5vw;
+    width: 93%;
+    margin-left: 4vw;
+    height: 70vh; 
+}
+#texto-div-2{
+    position: relative;
+    height: 50vh;
+    border-radius: 60px;
+}
+
+
+#movimentacaoSuper {
+    background: url('https://cdn.discordapp.com/attachments/960639624462622750/960639649523585034/unknown.png?size=4096');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 4vw;
+    width: 34.5vw;
+    max-height: 100%;
+    height: 80vh;
+    border-radius: 45px 15px 50px 15px;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    padding: 3vh;
+    font-size: 0.9em;
+    border-radius: 3px  ;
+    background-color: white;
+}
+.padding-of {
+    font-size: 18px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-transform: uppercase;
+}
+#div-container2 p{
+    text-align: center;
+}
+
