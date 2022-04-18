@@ -30,7 +30,6 @@ header{
 img{
 
    padding: 10px 5px 30px 10px;
-    border-radius: 20%;
     width: 100px;
 }
 #titulo-h1{
@@ -43,7 +42,6 @@ img{
 }
 /* APÓS HEADER */
 #container{
-    border: 1px solid rgba(128, 128, 128, 0.534);
     height: 85vh;
     display: flex;
     justify-content: space-around;
@@ -177,22 +175,26 @@ background-size: 205%;
 /* Colaborador: Leonardo */
 #div-container2{
     height: 100vh;
+    width: 100vw;
     padding: 20px;
-    background-color: beige;
+    background-color: white;
 }
 
 .container-2-colunas  {
     display: flex;
-    
-    margin-top: 5vw;
-    width: 93%;
-    margin-left: 4vw;
-    height: 70vh; 
+    background-color: beige;
+    margin-top: 2vw;
+    width: 97%;
+    margin-left: 1vw;
+    height: 85vh; 
+}
+#parte-2-borda{
+    border: rgba(128, 128, 128, 0.534) solid 1px;
+
 }
 #texto-div-2{
     position: relative;
     height: 50vh;
-    border-radius: 60px;
 }
 
 
@@ -201,19 +203,16 @@ background-size: 205%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 4vw;
-    width: 34.5vw;
+    width: 35.5vw;
     max-height: 100%;
-    height: 80vh;
-    border-radius: 45px 15px 50px 15px;
+    height: 100vh;
 }
 
 .text{
     font-family: 'Montserrat', sans-serif;
     padding: 3vh;
     font-size: 0.9em;
-    border-radius: 3px  ;
-    background-color: white;
+
 }
 .padding-of {
     font-size: 18px;
@@ -225,3 +224,103 @@ background-size: 205%;
     text-align: center;
 }
 
+/* parte 3 */
+
+
+#title_redes{
+
+    margin-top: 10%;
+}
+.icones{
+    margin-left: 10%;
+    width: 25%;
+    
+}
+#itenss{
+   margin-top: 5%;
+}
+
+#rol-3{
+    width: 100vw;
+    height: 76vh;
+}
+
+#noticias{
+    display: flex;
+    float: left;
+    margin-left: 50px;
+    top: 20px;
+    font-size: 55px;
+    text-decoration:wavy
+}
+
+.bordasinter{
+    position: relative;
+    border: 1px solid rgba(201, 192, 192, 0.836);
+    height: 60.5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin-left: 3.5vw;
+    margin-top: 70px;
+}
+
+#seletor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bordas{
+    margin-top: 60px;
+    
+    width: 35%;
+    height: 480px;
+    
+    margin-left: 50px;
+    margin-right: 40px;
+    
+    
+}
+
+#imagem2,#imagem1{
+    width: 25vw; 
+    height: 60.2vh; 
+    object-fit: cover;
+    padding: 0px;
+   
+}
+
+
+.paragrafo-3{
+    
+    margin-top: 15px;
+    width: 30vw;
+    height: 490px;
+    margin-right: 45px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    
+}
+
+#redes{
+    color: white;
+    font-family: sans-serif;
+}
+#itenss{
+    width: 150px;
+    margin-right: 5vw;
+
+}
+.icones{
+    padding: 1px;
+    width: 45px;
+}
+#imagem-van{
+    margin-left: 3vw;
+}
+footer{
+    width: 100%;
+    height: 24vh;
+    background-color: rgb(92, 1, 1);
+}
