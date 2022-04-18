@@ -14,7 +14,7 @@ html, body{
 header{
 /*     background: black;
  */   background-color: #7e0202d0;
-  height: 15vh;
+  height: 16vh;
     display: flex;
     justify-content: space-between;
 }
@@ -24,13 +24,14 @@ header{
 #imagem-logo{
     position: relative;
    padding: 1vh 0vw 5vh 10vw;
+   margin-top: -1.6vh;
 
 
 }
 img{
 
    padding: 10px 5px 30px 10px;
-    width: 100px;
+    width: 8vw;
 }
 #titulo-h1{
     position: relative;
@@ -174,7 +175,8 @@ background-size: 205%;
 /* Parte 2 início */
 /* Colaborador: Leonardo */
 #div-container2{
-    height: 100vh;
+    height: 40vh;
+    margin-bottom: 390px;
     width: 100vw;
     padding: 20px;
     background-color: white;
